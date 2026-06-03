@@ -1,4 +1,20 @@
+
+amir miller
+9:12 PM (0 minutes ago)
+to me
+
 const { Client, GatewayIntentBits } = require('discord.js');
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+res.send('Bot is running!');
+});
+
+app.listen(3000, () => {
+console.log('Web server running');
+});
 
 const client = new Client({
 intents: [GatewayIntentBits.Guilds]
