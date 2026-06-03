@@ -1,7 +1,4 @@
 
-amir miller
-9:12 PM (0 minutes ago)
-to me
 
 const { Client, GatewayIntentBits } = require('discord.js');
 const express = require('express');
